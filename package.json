@@ -1,6 +1,6 @@
 {
   "name": "hello-server-multi-arch",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple web server with multi-arch support used for testing docker or k8s deployments.",
   "main": "index.js",
   "scripts": {

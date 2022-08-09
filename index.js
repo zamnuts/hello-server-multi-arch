@@ -27,13 +27,11 @@ koa.use(ctx => {
     message: 'incoming request',
     ts,
     id,
-    ip,
-    xff,
     method,
     uri,
   };
 
-  console.log(JSON.stringify(meta));
+  console.log(JSON.stringify({...meta, ip, xff}));
   ctx.body = meta;
 });
 

@@ -1,4 +1,4 @@
-FROM library/node:lts-slim
+FROM library/node:16-slim
 
 CMD ["index.js"]
 
